@@ -1,0 +1,137 @@
+/* Set fonts and text styles */
+body {
+    color:yellow;
+    background-color: rgb(54, 7, 120);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    padding: 0;
+    height:50%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    
+}
+
+h1, h2 {
+    font-weight: bolder;
+    text-align: center;
+    margin:0;
+}
+
+#note {
+    font-size: 0.90rem;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: double;
+}
+
+#chuck {
+    font-style: italic;
+    font-weight: bold;
+    padding:20px;
+    width: 50%;
+    border: 5px solid yellow;
+    border-radius: 5px;
+}
+
+#cats {
+    font-style: italic;
+    font-weight: bold;
+    word-break: break-all;
+    white-space: normal;
+    padding:20px;
+    width: 50%;
+    border: 5px solid yellow;
+    border-radius: 5px;
+}
+/* Edit the images */
+#compu {
+    width: auto; 
+    height: 350px; 
+    object-fit: cover;
+    margin:-20px;
+    border: solid 5px;
+    border-radius: 175px;
+}
+
+#rock,#paper, #scissors {
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border: solid 10px crimson;
+    border-radius:100%;
+    margin:20px;
+
+}
+/* Edit all the layouts for each section */
+.gameSection {
+    border: solid 10px crimson;
+    border-radius: 10px;
+}
+
+.container1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    height: auto;
+}
+
+.options {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0px 40px 0px;
+    gap:15px;
+}
+
+.container2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.jokesSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border: solid 10px crimson;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    width:50%;
+}
+/* Button styles and animations */
+button {
+    height:10%;
+    width: 40%;
+    font-size: 30px;
+    color: yellow;
+    background-color: crimson;
+    border: 5px solid;
+    border-radius: 40px;
+    margin: -10px 0px 15px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+  }
+
+#chuckButton {
+    margin-bottom: 20px;
+}

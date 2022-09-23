@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ROCK PAPER SCISSORS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <!-- Intro Title Section -->
+        <div class="gameSection">
+            <div class="container1">
+                <h1>ROCK PAPER SCISSORS!</h1>
+                <img src=img4.jpg id="compu" alt=
+                "https://static.seibertron.com/images/toys/files/04/r_computron-002.jpg">
+                <p>Chuck Norris has taken a break from protecting the planet to battle you 
+                in a duel of rock,paper,scissors! Choose wisely!</p>
+            </div>
+            <!-- Rock, paper, scissors options -->
+            <div class="options">            
+                <img src="img1.jpg" id="rock" onclick="myFunctionRock()" alt="Rock">
+                <img src="img2.jpg"  id="paper" onclick="myFunctionPaper()" alt="Paper">
+                <img src="img3.jpg"  id="scissors" onclick="myFunctionScissors()" alt="Scissors">
+            </div>
+            <!-- Refresh button to start a new game -->
+            <div class="container2">
+                <p id="result">Who will get out of here alive? You or Chuck?</p>
+                <button onclick="window.location.reload();">New Game?</button>
+                <p id="note">To play again, click the button below or cheat and pick another option!</p>
+            </div>
+        </div>
+
+        <!-- Set up API -->
+        <div class="jokesSection">
+            <h1>Random Chuck Norris Jokes</h1>
+            <p id="chuck">Random Chuck Norris Jokes</p>
+            <button onclick="window.location.reload();">More Jokes!</button>
+        </div>
+
+            <div class="categories">
+                <h2>Joke categories:</h2>
+                <p id="cats">Here are the joke categories!</p>
+                <p id="chuckSearch">Search for jokes!</p>
+            </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
